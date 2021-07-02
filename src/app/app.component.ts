@@ -7,7 +7,7 @@ import { CallService } from "./call.service";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'firstapp';
+  title = 'call-project';
   segment:any=[];
   constructor(private getData:CallService){
 
